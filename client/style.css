@@ -148,3 +148,21 @@ form img {
   width: 30px;
   height: 30px;
 }
+
+footer{
+  font-family:sans-serif;
+  color:aqua;
+  font-size: large;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-family:sans-serif;
+
+  color: rgb(61, 208, 184);
+}
+
+a:hover{
+  color: rgb(78, 129, 225);
+}
