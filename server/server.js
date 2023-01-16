@@ -45,9 +45,9 @@ app.post('/', async(req, res) => {
 
     } catch (error) {
         console.log(error)
-        res.status(500).send({ error })
+        res.status(5005).send({ error })
         // console.log(OPENAI_API_KEY);
     }
 })
 
-app.listen(500, ()=> console.log('Server running at port http://localhost:500'));
+app.listen(5005, ()=> console.log('Server running at port http://localhost:5005'));

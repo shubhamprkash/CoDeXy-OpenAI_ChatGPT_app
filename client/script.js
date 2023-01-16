@@ -81,7 +81,7 @@ const handleSubmit = async (e) => {
 
     //data from server to client
 
-    const response = await fetch('http://localhost:500',{
+    const response = await fetch('http://localhost:5005',{
         method: 'POST',
         headers:{
          'Content-Type': 'application/json'   
